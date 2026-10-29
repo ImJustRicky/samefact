@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;width:1600px;height:640px;background:#0d1117;font-family:Inter,system-ui,sans-serif}
+  .wrap{display:flex;align-items:center;height:100%;padding:0 88px;gap:72px;box-sizing:border-box}
+  .left{flex:0 0 470px;color:#e6edf3}
+  .name{font-size:76px;font-weight:700;letter-spacing:-2px;margin:0}
+  .tag{font-size:26px;line-height:1.35;color:#8b949e;margin:18px 0 0;font-weight:600}
+  .term{flex:1;background:#161b22;border:1px solid #30363d;border-radius:12px;overflow:hidden}
+  .bar{height:38px;display:flex;align-items:center;gap:8px;padding:0 16px;border-bottom:1px solid #30363d}
+  .dot{width:12px;height:12px;border-radius:50%;background:#30363d}
+  pre{margin:0;padding:26px 30px 30px;font:400 19px/1.65 "JetBrains Mono",monospace;color:#c9d1d9;white-space:pre}
+  .p{color:#3fb950}.dim{color:#6e7681}.h{color:#8b949e;font-weight:600}
+  .bad{color:#f85149;font-weight:600}.ok{color:#3fb950;font-weight:600}
+</style></head><body><div class="wrap">
+  <div class="left"><p class="name">samefact</p>
+  <p class="tag">Does your agent's memory find the fact in new words, and the new answer after it changes?</p></div>
+  <div class="term"><div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+  <pre><span class="p">$</span> npx github:ImJustRicky/samefact
+<span class="dim">Right answer in the top 3 of 1,171 notes.</span>
+
+<span class="h">memory              reworded   fact changed   stale first</span>
+mcp-server-memory   73%        20%            <span class="bad">48%</span>
+basic-memory        90%        20%            <span class="bad">64%</span>
+chroma              100%       12%            <span class="bad">79%</span>
+mempalace           90%        19%            <span class="bad">71%</span>
+mem0                87%        23%            <span class="bad">53%</span></pre></div>
+</div></body></html>

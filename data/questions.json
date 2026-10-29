@@ -1,0 +1,962 @@
+{
+  "dentist": {
+    "main": {
+      "direct": "Who's my dentist these days?",
+      "reworded": "Who do I see now when I need a cleaning or a filling?",
+      "situational": "A molar has been aching since lunch and I want to book someone today. Who should I call?"
+    },
+    "heldout": {
+      "direct": "What's the name of my current dentist?",
+      "reworded": "Who handles my oral care since the insurance switch?",
+      "situational": "I just chipped a tooth on a popcorn kernel. Whose office should I ring?"
+    }
+  },
+  "guest-wifi": {
+    "main": {
+      "direct": "What's our guest wifi network called?",
+      "reworded": "What name shows up for the visitors' internet connection at our place?",
+      "situational": "My in-laws just arrived and are holding up their phones asking what to connect to."
+    },
+    "heldout": {
+      "direct": "Remind me what the guest wifi is named?",
+      "reworded": "Which network should houseguests pick when they want to get online?",
+      "situational": "The babysitter's tablet can't find our internet. Which one should she select from the list?"
+    }
+  },
+  "dog-food": {
+    "main": {
+      "direct": "What food does Biscuit eat now?",
+      "reworded": "Which kibble is the pup supposed to be on these days?",
+      "situational": "I'm at the pet store and Biscuit's bag is nearly empty. What should I grab?"
+    },
+    "heldout": {
+      "direct": "What's Biscuit's current dog food?",
+      "reworded": "What did the vet tell us to feed our pooch after the allergy tests?",
+      "situational": "The neighbor is watching our dog this weekend and asked what to put in his bowl."
+    }
+  },
+  "blood-type": {
+    "main": {
+      "direct": "What's my blood type?",
+      "reworded": "If I ever needed a transfusion, what group am I?",
+      "situational": "I'm signing up at the Red Cross donation center and the form wants my type."
+    },
+    "heldout": {
+      "direct": "Which blood type did I tell you I have?",
+      "reworded": "What's my ABO and Rh group again?",
+      "situational": "Pre-op paperwork has a field about what I'd need if they had to transfuse me. What do I write?"
+    }
+  },
+  "drug-allergy": {
+    "main": {
+      "direct": "Which medication am I allergic to?",
+      "reworded": "What antibiotic gave me a bad reaction before?",
+      "situational": "The urgent care doctor wants to prescribe something for my ear infection. Anything I should warn her about?"
+    },
+    "heldout": {
+      "direct": "What drug allergy do I have?",
+      "reworded": "Which medicine did my skin react badly to last time?",
+      "situational": "The pharmacist asked if there's anything I can't take before filling this script."
+    }
+  },
+  "car-plate": {
+    "main": {
+      "direct": "What's the Outback's license plate now?",
+      "reworded": "What's the registration number on our Subaru these days?",
+      "situational": "The parking garage kiosk wants the tag number for our wagon. What do I enter?"
+    },
+    "heldout": {
+      "direct": "What plate number is on our Outback?",
+      "reworded": "Which tag did the new state's DMV give the Subaru?",
+      "situational": "I'm buying a visitor parking permit online and it needs our family car's tag."
+    }
+  },
+  "gym": {
+    "main": {
+      "direct": "Which gym do I belong to now?",
+      "reworded": "Where am I working out these days?",
+      "situational": "I want to drop in for a quick workout tonight. Where's the place I pay for?"
+    },
+    "heldout": {
+      "direct": "What's the name of my current gym?",
+      "reworded": "Which place do I go to exercise lately?",
+      "situational": "A coworker wants to train together and asked where I go so she can get a guest pass."
+    }
+  },
+  "mom-birthday": {
+    "main": {
+      "direct": "When is Mom's birthday?",
+      "reworded": "What day was my mother born?",
+      "situational": "I want flowers to arrive on my mom's special day. What date should I pick for delivery?"
+    },
+    "heldout": {
+      "direct": "What's my mom's birthday?",
+      "reworded": "On which date does my mother turn a year older?",
+      "situational": "I'm setting reminders for the year's family celebrations. When's the one for Mom?"
+    }
+  },
+  "anniversary-spot": {
+    "main": {
+      "direct": "Where's our anniversary restaurant?",
+      "reworded": "Which place do Dev and I always go to celebrate the day we got married?",
+      "situational": "I want to book dinner for our big date next month at the usual place. What's it called?"
+    },
+    "heldout": {
+      "direct": "What restaurant is our anniversary spot?",
+      "reworded": "Where do we usually eat when marking another year together?",
+      "situational": "Our wedding date is coming up and I need to reserve the corner table. Which restaurant?"
+    }
+  },
+  "shoe-size": {
+    "main": {
+      "direct": "What size running shoes do I wear?",
+      "reworded": "What fit do I need in sneakers for jogging?",
+      "situational": "Brooks has a sale and I'm about to order new trainers. Which size do I click?"
+    },
+    "heldout": {
+      "direct": "What's my running shoe size?",
+      "reworded": "How big are my feet when buying jogging trainers?",
+      "situational": "I'm at the running store and the clerk asks what to bring out from the back for me."
+    }
+  },
+  "pharmacy": {
+    "main": {
+      "direct": "Which pharmacy do I use now?",
+      "reworded": "Where should the doctor send my meds these days?",
+      "situational": "The new doctor's office is asking where to send my refill. What do I tell them?"
+    },
+    "heldout": {
+      "direct": "What's my current pharmacy?",
+      "reworded": "Which drugstore handles my medications now?",
+      "situational": "I need to grab my refill on the way home. Where do I stop?"
+    }
+  },
+  "sertraline-dose": {
+    "main": {
+      "direct": "What dose of sertraline am I on?",
+      "reworded": "How much of my antidepressant do I take each morning now?",
+      "situational": "I'm filling my weekly pill organizer and can't remember how many milligrams my Zoloft should be."
+    },
+    "heldout": {
+      "direct": "How many milligrams of sertraline do I take now?",
+      "reworded": "What strength is my daily SSRI these days?",
+      "situational": "A new doctor is reviewing my medication list and wants the exact amount of my morning antidepressant."
+    }
+  },
+  "lisbon-flight": {
+    "main": {
+      "direct": "What's my flight number to Lisbon?",
+      "reworded": "Which plane am I booked on to Portugal's capital after the rebooking?",
+      "situational": "I'm checking whether my trip on the 12th is delayed. Which flight should I look up?"
+    },
+    "heldout": {
+      "direct": "What flight am I taking to Lisbon now?",
+      "reworded": "After the cancellation, what's the new flight code for my Portugal trip?",
+      "situational": "Dev wants to track when I land in Portugal. What should I send him?"
+    }
+  },
+  "porto-hotel": {
+    "main": {
+      "direct": "What's the confirmation number for our Porto hotel?",
+      "reworded": "What booking code do we have for where we're staying in Porto?",
+      "situational": "The front desk at Casa do Rio can't find our reservation. What number do I give them?"
+    },
+    "heldout": {
+      "direct": "What's my Casa do Rio confirmation code?",
+      "reworded": "Which reference number goes with our lodging reservation in Porto?",
+      "situational": "We just arrived in Porto and the receptionist is asking for our booking reference."
+    }
+  },
+  "grocery-budget": {
+    "main": {
+      "direct": "What's our monthly grocery budget?",
+      "reworded": "How much are we allowing ourselves for food shopping each month now?",
+      "situational": "I'm setting up spending categories in our budgeting app. What cap goes on supermarket trips?"
+    },
+    "heldout": {
+      "direct": "How much do we budget for groceries now?",
+      "reworded": "What's the monthly limit for supermarket spending after we raised it?",
+      "situational": "We've spent a lot at Trader Joe's this month. How much room did we give ourselves?"
+    }
+  },
+  "emergency-fund": {
+    "main": {
+      "direct": "What's our emergency fund target?",
+      "reworded": "How much are we aiming to keep in our rainy-day savings?",
+      "situational": "I'm deciding whether to keep moving money into the high-yield account. What number are we trying to hit?"
+    },
+    "heldout": {
+      "direct": "How big is our emergency fund goal?",
+      "reworded": "What cushion did we want saved in case of a job loss?",
+      "situational": "Our savings just crossed twenty grand. Have we reached the goal we set for unexpected expenses?"
+    }
+  },
+  "school-pickup": {
+    "main": {
+      "direct": "What time does Leo get out of school?",
+      "reworded": "When do I need to collect my son from class these days?",
+      "situational": "I've got an appointment this afternoon. When do I need to be back for Leo?"
+    },
+    "heldout": {
+      "direct": "When is Leo's school pickup now?",
+      "reworded": "What time does my boy's school day end lately?",
+      "situational": "I'm scheduling a call this afternoon and need to leave in time to grab Leo. When does he come out?"
+    }
+  },
+  "soccer-day": {
+    "main": {
+      "direct": "What day is Maya's soccer practice?",
+      "reworded": "Which day of the week does my daughter train with her team?",
+      "situational": "I'm booking Maya's dentist visit after school and want to avoid a conflict. Which afternoon is out?"
+    },
+    "heldout": {
+      "direct": "When does Maya have soccer now?",
+      "reworded": "What weekday is my daughter's football practice after the coach's change?",
+      "situational": "Grandma wants to take Maya out one afternoon this week. Which day won't work because of her team?"
+    }
+  },
+  "hairdresser": {
+    "main": {
+      "direct": "Who cuts my hair?",
+      "reworded": "What's the name of my stylist?",
+      "situational": "My bangs are in my eyes and I want to book with my usual person. Who do I ask for?"
+    },
+    "heldout": {
+      "direct": "Who's my hairdresser?",
+      "reworded": "Who do I see at the salon for trims?",
+      "situational": "I'm calling Shear Bliss for an appointment. Whose chair should I request?"
+    }
+  },
+  "coffee-order": {
+    "main": {
+      "direct": "What's my usual coffee order now?",
+      "reworded": "What do I normally get at the café these days?",
+      "situational": "Dev is grabbing drinks on his way home and texted asking what I want."
+    },
+    "heldout": {
+      "direct": "What coffee do I order lately?",
+      "reworded": "Which espresso drink have I been getting since I switched milks?",
+      "situational": "I'm placing a mobile order at Blue Bottle for myself. What should I put in?"
+    }
+  },
+  "passport-expiry": {
+    "main": {
+      "direct": "When does my passport expire?",
+      "reworded": "How long is my travel document still valid?",
+      "situational": "I'm booking an international trip a few years out. When will my travel ID need renewing?"
+    },
+    "heldout": {
+      "direct": "What's the expiration date on my passport?",
+      "reworded": "Until when can I use my current travel ID abroad?",
+      "situational": "Some countries require six months of validity left. When does mine run out?"
+    }
+  },
+  "landlord": {
+    "main": {
+      "direct": "Who's our landlord now?",
+      "reworded": "Who owns our apartment building these days?",
+      "situational": "The kitchen faucet is leaking and I need to report it to whoever owns the place."
+    },
+    "heldout": {
+      "direct": "Who is our current landlord?",
+      "reworded": "Which company do we rent from after the sale?",
+      "situational": "The renter's insurance form asks for the name of the property owner."
+    }
+  },
+  "rent": {
+    "main": {
+      "direct": "How much is our rent?",
+      "reworded": "What do we pay each month for the apartment?",
+      "situational": "I'm setting up the housing transfer that goes out on the 1st. What amount?"
+    },
+    "heldout": {
+      "direct": "What's our monthly rent?",
+      "reworded": "How much does our place cost us every month?",
+      "situational": "A loan application wants my monthly housing payment. What do I put?"
+    }
+  },
+  "pool-locker": {
+    "main": {
+      "direct": "What's my pool locker number?",
+      "reworded": "Which cubby did they assign me at the swim center?",
+      "situational": "I'm standing in the aquatic center changing room with my key and forgot which one is mine."
+    },
+    "heldout": {
+      "direct": "Which locker is mine at the pool?",
+      "reworded": "What number is my storage spot at the natatorium?",
+      "situational": "Just finished laps and I'm dripping in the changing room. Which door do I open?"
+    }
+  },
+  "trash-day": {
+    "main": {
+      "direct": "When does trash go out?",
+      "reworded": "Which evening do the garbage bins get rolled to the street?",
+      "situational": "We're leaving for a long weekend. When should someone haul the bins out for us?"
+    },
+    "heldout": {
+      "direct": "What night is trash night?",
+      "reworded": "When do I put the rubbish out for collection?",
+      "situational": "The neighbor offered to handle our bins while we're away. When should she do it?"
+    }
+  },
+  "dog-vet": {
+    "main": {
+      "direct": "Who is Biscuit's vet?",
+      "reworded": "Which animal clinic does our dog go to?",
+      "situational": "Biscuit's limping and I want to call his usual doctor. Where's that?"
+    },
+    "heldout": {
+      "direct": "What's the name of Biscuit's veterinarian?",
+      "reworded": "Where do we take the pup for checkups and shots?",
+      "situational": "The kennel wants vaccine records and the name of the place that treats our dog."
+    }
+  },
+  "piano-teacher": {
+    "main": {
+      "direct": "Who is Leo's piano teacher now?",
+      "reworded": "Who gives my son his keyboard lessons these days?",
+      "situational": "Leo's sick and will miss this week's lesson. Who do I need to let know?"
+    },
+    "heldout": {
+      "direct": "Who teaches Leo piano since the old teacher retired?",
+      "reworded": "Who is my boy's music instructor now?",
+      "situational": "I want to send a thank-you note along with Leo's recital card. Who's it for?"
+    }
+  },
+  "book-club": {
+    "main": {
+      "direct": "When does book club meet?",
+      "reworded": "How often does our reading group get together at Ingrid's?",
+      "situational": "I'm planning a dinner next month and don't want to clash with Ingrid's monthly gathering. Which evening's taken?"
+    },
+    "heldout": {
+      "direct": "What day is my book club each month?",
+      "reworded": "When's the monthly reading circle?",
+      "situational": "I need to finish the novel before we discuss it at Ingrid's. When's the next meeting?"
+    }
+  },
+  "long-run": {
+    "main": {
+      "direct": "How long is my weekend long run?",
+      "reworded": "How far do I usually go on my big weekly jog by the water?",
+      "situational": "I'm planning Sunday's route and want to match my usual distance. How far should I go?"
+    },
+    "heldout": {
+      "direct": "What distance is my weekend long run?",
+      "reworded": "How many kilometers do I cover on my longest outing of the week?",
+      "situational": "I'm packing gels for Saturday's river outing. How much distance am I covering?"
+    }
+  },
+  "tomatoes": {
+    "main": {
+      "direct": "Which tomato variety did I plant in the back bed?",
+      "reworded": "What kind of heirloom did I put in the rear garden this year?",
+      "situational": "A neighbor loved the fruit from my backyard and wants seeds of the same kind. What do I tell her?"
+    },
+    "heldout": {
+      "direct": "What tomatoes are growing in the back bed?",
+      "reworded": "What cultivar went into my rear vegetable plot this season?",
+      "situational": "I'm labeling the garden map for next year. What did I plant out back?"
+    }
+  },
+  "electric": {
+    "main": {
+      "direct": "Who's our electric company?",
+      "reworded": "Which utility do we pay for power?",
+      "situational": "The lights went out on the whole block. Who should I call to report it?"
+    },
+    "heldout": {
+      "direct": "Which company is our electric bill through?",
+      "reworded": "Who supplies our household electricity?",
+      "situational": "We're moving and need to transfer the power account. Which provider do I contact?"
+    }
+  },
+  "tv-service": {
+    "main": {
+      "direct": "What TV service do we pay for?",
+      "reworded": "Which streaming package gives us live channels?",
+      "situational": "I want to watch the game tonight. Which app are we already paying for?"
+    },
+    "heldout": {
+      "direct": "Which TV subscription is on my card?",
+      "reworded": "What do we use to watch cable channels these days?",
+      "situational": "There's a streaming charge on my credit card I don't recognize. Which plan do we actually have?"
+    }
+  },
+  "health-plan": {
+    "main": {
+      "direct": "What health insurance plan do we have now?",
+      "reworded": "Which medical coverage did we pick this year?",
+      "situational": "The urgent care front desk wants to know who covers us before I see the doctor."
+    },
+    "heldout": {
+      "direct": "What's our current health plan?",
+      "reworded": "Which medical coverage are we on after this year's benefits signup?",
+      "situational": "I'm searching for in-network therapists and the site asks which plan I have."
+    }
+  },
+  "sitter": {
+    "main": {
+      "direct": "Who's our go-to sitter?",
+      "reworded": "Who do we usually call to watch the kids?",
+      "situational": "Dev and I want a date night Friday. Who should I text first?"
+    },
+    "heldout": {
+      "direct": "What's the name of our main babysitter?",
+      "reworded": "Who's our regular childcare person for evenings out?",
+      "situational": "We got last-minute concert tickets and need someone with the kids tonight. Who's first choice?"
+    }
+  },
+  "knitting": {
+    "main": {
+      "direct": "What am I knitting for Maya?",
+      "reworded": "What sweater pattern am I making for my daughter?",
+      "situational": "I lost my place on the project for Maya and need to find the pattern online. What's it called?"
+    },
+    "heldout": {
+      "direct": "Which pattern is my current knitting project for Maya?",
+      "reworded": "What's the name of the jumper I'm working on for my little girl?",
+      "situational": "I ran out of yarn for Maya's sweater and the shop asks which pattern it's for."
+    }
+  },
+  "butter": {
+    "main": {
+      "direct": "What butter should I buy?",
+      "reworded": "Which dairy spread brand do I insist on?",
+      "situational": "I'm adding things to the grocery delivery order and need to pick what goes on toast."
+    },
+    "heldout": {
+      "direct": "Which butter do I always buy?",
+      "reworded": "What's my preferred brand for baking fat in the dairy aisle?",
+      "situational": "I'm at the store and the house brand is on sale for toast and baking. What should I get instead?"
+    }
+  },
+  "airline-status": {
+    "main": {
+      "direct": "What's my Delta status now?",
+      "reworded": "What elite tier do I have with my main airline these days?",
+      "situational": "Will I get free checked bags on my next Delta flight? What level am I?"
+    },
+    "heldout": {
+      "direct": "What status level do I hold with Delta?",
+      "reworded": "Where do I stand in my frequent flyer program after this slow year?",
+      "situational": "The gate agent asked about my loyalty level before handing out upgrades. What do I tell her?"
+    }
+  },
+  "contacts-rx": {
+    "main": {
+      "direct": "What's my contact lens prescription?",
+      "reworded": "What power are my lenses for each eye?",
+      "situational": "I'm reordering Acuvue Oasys online and the form wants the number for each eye."
+    },
+    "heldout": {
+      "direct": "What strength are my contacts?",
+      "reworded": "What's my lens Rx?",
+      "situational": "1-800 Contacts needs my eye numbers to ship a new box."
+    }
+  },
+  "parking-spot": {
+    "main": {
+      "direct": "What's our garage parking spot?",
+      "reworded": "Where do we leave the car in the building's lot?",
+      "situational": "A friend is borrowing our car and needs to know where to put it back."
+    },
+    "heldout": {
+      "direct": "Which parking space is ours?",
+      "reworded": "What's our assigned stall number downstairs?",
+      "situational": "Someone's car is blocking ours. Which space do I tell the building manager about?"
+    }
+  },
+  "campsite": {
+    "main": {
+      "direct": "What's our campsite number at Hickory Run?",
+      "reworded": "Which pitch did we book for the camping trip?",
+      "situational": "We just pulled into Hickory Run after dark. Where do we set up the tent?"
+    },
+    "heldout": {
+      "direct": "Which site did we reserve at Hickory Run?",
+      "reworded": "What spot number is our camping reservation?",
+      "situational": "Dev's driving up separately on the 18th and needs to find where we're pitching the tent."
+    }
+  },
+  "payments-repo": {
+    "main": {
+      "direct": "Which repo holds the payments service now?",
+      "reworded": "Where does the code for charging customers live after the split?",
+      "situational": "I need to fix a bug in how refunds get processed. Which codebase should I clone?"
+    },
+    "heldout": {
+      "direct": "What's the canonical repository for payments?",
+      "reworded": "Where should I look for the money-handling service's source these days?",
+      "situational": "A new hire asks where to open a PR for the card charging logic."
+    }
+  },
+  "checkout-oncall": {
+    "main": {
+      "direct": "Who is the checkout on-call lead?",
+      "reworded": "Who's currently in charge of the pager for the purchase flow?",
+      "situational": "Carts are failing to complete in prod. Whom should I page this rotation?"
+    },
+    "heldout": {
+      "direct": "Who's leading checkout on-call right now?",
+      "reworded": "Who owns incidents for the buying step this rotation?",
+      "situational": "Orders are stuck at the final step. Who's the person to escalate to this week?"
+    }
+  },
+  "standup": {
+    "main": {
+      "direct": "What time is daily standup?",
+      "reworded": "When's our morning team sync?",
+      "situational": "I'm booking a dentist appointment tomorrow morning and don't want to miss the daily meeting. When is it?"
+    },
+    "heldout": {
+      "direct": "When does standup start?",
+      "reworded": "What time do we do our quick daily check-in?",
+      "situational": "A recruiter wants a morning call. What slot should I avoid?"
+    }
+  },
+  "node-version": {
+    "main": {
+      "direct": "What Node version do we pin?",
+      "reworded": "Which JavaScript runtime release does the repo's version file specify?",
+      "situational": "My local build fails with weird syntax errors. Which runtime version should I install?"
+    },
+    "heldout": {
+      "direct": "Which Node version is in .nvmrc now?",
+      "reworded": "What runtime version are we locked to after last sprint's bump?",
+      "situational": "I'm setting up a fresh laptop and need the right JS engine version for our project."
+    }
+  },
+  "holiday-freeze": {
+    "main": {
+      "direct": "When does the holiday code freeze start?",
+      "reworded": "From what date can't we ship changes over the year-end break?",
+      "situational": "I want to land this big refactor before the winter lockdown. What's my deadline?"
+    },
+    "heldout": {
+      "direct": "What's the start date of the holiday freeze?",
+      "reworded": "When does the end-of-year deployment pause begin?",
+      "situational": "PM wants this feature live before the holidays. By when must it merge?"
+    }
+  },
+  "staging-url": {
+    "main": {
+      "direct": "What's the staging URL now?",
+      "reworded": "Where is our pre-production environment hosted after the infra rework?",
+      "situational": "QA wants to test the build before release. Which address should I send them?"
+    },
+    "heldout": {
+      "direct": "Where does staging live these days?",
+      "reworded": "What's the link to our test environment?",
+      "situational": "A designer wants to click through the new flow before it goes live. What site should she open?"
+    }
+  },
+  "pr-approvals": {
+    "main": {
+      "direct": "How many approvals does a PR need?",
+      "reworded": "How many reviewers must sign off before code goes into the main branch?",
+      "situational": "My change has one LGTM. Can I hit the merge button yet?"
+    },
+    "heldout": {
+      "direct": "What's the approval requirement for merging PRs?",
+      "reworded": "How many thumbs-up do I need before landing a change?",
+      "situational": "A teammate just approved my pull request. Am I clear to merge to trunk?"
+    }
+  },
+  "top-customer": {
+    "main": {
+      "direct": "Who's our biggest customer by ARR?",
+      "reworded": "Which client brings in the most recurring revenue?",
+      "situational": "The CEO wants a case study with our largest account. Who should we approach?"
+    },
+    "heldout": {
+      "direct": "What's our top customer by revenue?",
+      "reworded": "Which account pays us the most annually?",
+      "situational": "Before cutting a feature, I want to check it won't hurt our most valuable client. Who's that?"
+    }
+  },
+  "ci-system": {
+    "main": {
+      "direct": "What do we use for CI now?",
+      "reworded": "Which service runs our automated builds and tests?",
+      "situational": "My pipeline config needs a tweak. Which platform's docs should I read?"
+    },
+    "heldout": {
+      "direct": "Which CI system do we run on?",
+      "reworded": "What tool kicks off our test suite when code is pushed?",
+      "situational": "A build is flaky and I want to check the logs. Where do I go?"
+    }
+  },
+  "sentry-slug": {
+    "main": {
+      "direct": "What's the Sentry project slug for web errors?",
+      "reworded": "Which error-tracking project collects browser exceptions?",
+      "situational": "Users report a blank page on the site. Where in Sentry do I look?"
+    },
+    "heldout": {
+      "direct": "Which Sentry slug do web errors go to?",
+      "reworded": "What's our production website's crash reporting project called?",
+      "situational": "I'm wiring up the DSN in the new frontend app. Which project should it point at?"
+    }
+  },
+  "primary-db": {
+    "main": {
+      "direct": "What's the primary database instance name?",
+      "reworded": "Which RDS box is our main Postgres?",
+      "situational": "I need to run a write migration. Which instance do I connect to?"
+    },
+    "heldout": {
+      "direct": "Which instance is our primary DB?",
+      "reworded": "What's the main Postgres server called?",
+      "situational": "CPU alarms are firing on the writer. Which database host should I check in the console?"
+    }
+  },
+  "sprint-planning": {
+    "main": {
+      "direct": "When is sprint planning?",
+      "reworded": "When do we meet to pick work for the next iteration?",
+      "situational": "A vendor wants a demo early in the week. When's our ticket-picking meeting so I avoid it?"
+    },
+    "heldout": {
+      "direct": "What day and time is sprint planning?",
+      "reworded": "When's the meeting where we commit to the next two weeks of work?",
+      "situational": "I'm about to accept an early-afternoon interview slot. Does it clash with when we plan the upcoming cycle?"
+    }
+  },
+  "component-lib": {
+    "main": {
+      "direct": "What's our component library called?",
+      "reworded": "What's the name of our in-house design system for the app?",
+      "situational": "I need a button that matches the product. Which package should I import from?"
+    },
+    "heldout": {
+      "direct": "Which component library do we use?",
+      "reworded": "What do we call our shared UI kit?",
+      "situational": "A new frontend dev asks where to find our reusable modals and inputs."
+    }
+  },
+  "feature-flags": {
+    "main": {
+      "direct": "Where are feature flags managed now?",
+      "reworded": "Which tool do we use to toggle features for users these days?",
+      "situational": "I want to roll this out to 10% of users first. Where do I set that up?"
+    },
+    "heldout": {
+      "direct": "What do we use for feature flags?",
+      "reworded": "Which vendor controls our gradual rollouts and toggles?",
+      "situational": "Need to kill-switch a broken feature right now. Which dashboard do I open?"
+    }
+  },
+  "api-rate-limit": {
+    "main": {
+      "direct": "What's the public API rate limit now?",
+      "reworded": "How many calls can each key make per minute on our external API?",
+      "situational": "A customer keeps hitting 429s. What's the cap they're running into?"
+    },
+    "heldout": {
+      "direct": "What's the current per-key limit on the public API?",
+      "reworded": "How much traffic can one key send us per minute after the Halvorsen bump?",
+      "situational": "A partner is designing their batch job and asks how fast they can call us."
+    }
+  },
+  "incident-channel": {
+    "main": {
+      "direct": "Which channel do incidents go in?",
+      "reworded": "Where in Slack do we coordinate outages?",
+      "situational": "Prod is down. Where should I post?"
+    },
+    "heldout": {
+      "direct": "What's our incident Slack channel?",
+      "reworded": "Which room do we gather in when things break?",
+      "situational": "Error rates just spiked across the board. Where do I rally the team?"
+    }
+  },
+  "my-manager": {
+    "main": {
+      "direct": "Who is my manager now?",
+      "reworded": "Who's my boss these days?",
+      "situational": "I need sign-off on time off next week. Who approves it?"
+    },
+    "heldout": {
+      "direct": "Who's my current manager?",
+      "reworded": "Whom do I answer to on the org chart after the reorg?",
+      "situational": "I want to schedule a one-on-one about my promo case. Who should I book with?"
+    }
+  },
+  "mobile-release": {
+    "main": {
+      "direct": "How often do mobile releases ship?",
+      "reworded": "What's the cadence for pushing new app builds to the stores?",
+      "situational": "I want my iOS fix out to users soon. When's the next train likely to leave?"
+    },
+    "heldout": {
+      "direct": "What's our mobile release schedule?",
+      "reworded": "On what rhythm do we put new versions of the phone app out?",
+      "situational": "Marketing wants to time a campaign with an app update. How often do we ship?"
+    }
+  },
+  "prod-region": {
+    "main": {
+      "direct": "Which AWS region is prod in?",
+      "reworded": "Where are our production servers geographically located?",
+      "situational": "I'm spinning up a new service that needs low latency to prod. Which region should I pick?"
+    },
+    "heldout": {
+      "direct": "What region does production run in?",
+      "reworded": "In which cloud area does our live environment sit?",
+      "situational": "AWS posted an outage in some regions. Should I be worried about our live site?"
+    }
+  },
+  "meal-per-diem": {
+    "main": {
+      "direct": "What's the travel meal per diem now?",
+      "reworded": "How much can I expense for food per day on a work trip?",
+      "situational": "I'm on a client trip eyeing a nice steakhouse. How much will finance cover today?"
+    },
+    "heldout": {
+      "direct": "What's the daily meal cap for business travel?",
+      "reworded": "What's my daily food allowance when traveling for the company?",
+      "situational": "Filing expenses from the conference. Was I over the limit for what I ate each day?"
+    }
+  },
+  "python-formatter": {
+    "main": {
+      "direct": "What formatter do we use for Python?",
+      "reworded": "Which tool tidies up our Python code style?",
+      "situational": "CI flagged my Python file for style issues. What should I run locally?"
+    },
+    "heldout": {
+      "direct": "Which Python formatter do we run?",
+      "reworded": "What auto-styler is standard for our .py files?",
+      "situational": "Setting up my editor to clean up backend code on save. Which tool should it call?"
+    }
+  },
+  "wiki-url": {
+    "main": {
+      "direct": "What's the internal wiki URL?",
+      "reworded": "Where are our company docs hosted?",
+      "situational": "A new teammate wants to read our onboarding guides. Where do I point them?"
+    },
+    "heldout": {
+      "direct": "Where's our internal documentation site?",
+      "reworded": "What address do I open for the team knowledge base?",
+      "situational": "I wrote a runbook and want to publish it where everyone looks. What's the site?"
+    }
+  },
+  "ticket-key": {
+    "main": {
+      "direct": "What's the platform team's ticket key now?",
+      "reworded": "What prefix do platform issues get in Linear?",
+      "situational": "I'm writing a commit message and need to reference a platform ticket. What goes before the number?"
+    },
+    "heldout": {
+      "direct": "Which project key does the platform team use?",
+      "reworded": "What letters start our infra team's issue IDs since leaving Jira?",
+      "situational": "I'm filing a bug for the platform folks in Linear. What identifier will it get?"
+    }
+  },
+  "brightline-renewal": {
+    "main": {
+      "direct": "When does the Brightline Health contract renew?",
+      "reworded": "When is Brightline's deal up for extension?",
+      "situational": "I'm planning account reviews for the year. When do I need to prep for Brightline?"
+    },
+    "heldout": {
+      "direct": "What's the Brightline Health renewal date?",
+      "reworded": "When does the Brightline agreement come up again?",
+      "situational": "Sales wants to pitch Brightline an upsell before their term ends. What's our deadline?"
+    }
+  },
+  "base-image": {
+    "main": {
+      "direct": "What's our Docker base image?",
+      "reworded": "Which container image do our builds start FROM?",
+      "situational": "I'm writing a Dockerfile for a new service and want to match the others. What goes on the first line?"
+    },
+    "heldout": {
+      "direct": "Which base image do our containers use?",
+      "reworded": "What's the parent image for our service containers?",
+      "situational": "Security flagged a CVE upstream. What are our containers built on so I can check?"
+    }
+  },
+  "office-address": {
+    "main": {
+      "direct": "What's the office address now?",
+      "reworded": "Where's our workplace located since the move?",
+      "situational": "A candidate is coming in for an onsite. What address should I send?"
+    },
+    "heldout": {
+      "direct": "Where is our office these days?",
+      "reworded": "Where did the company relocate after the lease ended?",
+      "situational": "I'm having a package shipped to work. What street address do I use?"
+    }
+  },
+  "retro-time": {
+    "main": {
+      "direct": "What time are retros?",
+      "reworded": "When's our end-of-sprint reflection meeting on Fridays?",
+      "situational": "I want to leave early Friday. How long do I need to stay for the team look-back?"
+    },
+    "heldout": {
+      "direct": "When does retro start on Fridays?",
+      "reworded": "What time do we review how the sprint went?",
+      "situational": "Someone wants a Friday afternoon call. When's our team meeting so I can avoid it?"
+    }
+  },
+  "vault-path": {
+    "main": {
+      "direct": "Where are the checkout secrets in Vault?",
+      "reworded": "What path stores the purchase flow's credentials?",
+      "situational": "The checkout service can't read its DB password. Which Vault path should I verify?"
+    },
+    "heldout": {
+      "direct": "What's the Vault path for checkout?",
+      "reworded": "Where do we keep the checkout team's keys and tokens?",
+      "situational": "I'm rotating an API key used by checkout. Where do I update it?"
+    }
+  },
+  "log-retention": {
+    "main": {
+      "direct": "How long do we retain logs now?",
+      "reworded": "How far back can I search our Datadog history?",
+      "situational": "A customer complaint references an error from about two months ago. Will the records still be there?"
+    },
+    "heldout": {
+      "direct": "What's our current log retention period?",
+      "reworded": "How long does compliance require us to keep log data?",
+      "situational": "I'm debugging something that happened last quarter. How far back do our logs go?"
+    }
+  },
+  "pto": {
+    "main": {
+      "direct": "How much PTO do we get?",
+      "reworded": "How many vacation days does the company give per year?",
+      "situational": "I'm planning trips for next year. How many days off do I have to work with?"
+    },
+    "heldout": {
+      "direct": "What's the annual PTO allowance?",
+      "reworded": "How much paid leave do employees get annually?",
+      "situational": "A recruiter's offer has 15 days off. How does that compare to what we have here?"
+    }
+  },
+  "halvorsen-contact": {
+    "main": {
+      "direct": "Who's our main contact at Halvorsen now?",
+      "reworded": "Who should I email at Halvorsen these days?",
+      "situational": "I need to schedule the quarterly business review with Halvorsen. Who do I invite?"
+    },
+    "heldout": {
+      "direct": "Who is our current Halvorsen contact?",
+      "reworded": "Who represents Halvorsen in our dealings now?",
+      "situational": "Halvorsen's invoice has a question. Who on their side should I reach out to?"
+    }
+  },
+  "slo-dashboard": {
+    "main": {
+      "direct": "Where's the checkout SLO dashboard?",
+      "reworded": "Which Grafana board tracks checkout reliability?",
+      "situational": "Checkout seems slow today. Which dashboard should I pull up to see if we're burning budget?"
+    },
+    "heldout": {
+      "direct": "What's the checkout SLO dashboard's ID?",
+      "reworded": "What's the Grafana link for checkout's service-level objectives?",
+      "situational": "In the postmortem I want to link the reliability graph for the purchase flow. Which dashboard?"
+    }
+  },
+  "checkout-slo": {
+    "main": {
+      "direct": "What's checkout's availability target now?",
+      "reworded": "How much uptime are we promising for checkout after the review?",
+      "situational": "Checkout was down for 40 minutes this month. Are we still within our goal?"
+    },
+    "heldout": {
+      "direct": "What's the current checkout SLO?",
+      "reworded": "What uptime percentage are we aiming for on the purchase flow?",
+      "situational": "I'm calculating our error budget for checkout this quarter. What target should I use?"
+    }
+  },
+  "billing-tool": {
+    "main": {
+      "direct": "What do we use for invoicing?",
+      "reworded": "Which system sends customers their bills?",
+      "situational": "A customer says they never got their bill. Where do I check?"
+    },
+    "heldout": {
+      "direct": "Which tool handles our invoices?",
+      "reworded": "What platform do we generate customer billing in?",
+      "situational": "I need to issue a credit to a customer's account. Which app do I log into?"
+    }
+  },
+  "interview-loop": {
+    "main": {
+      "direct": "How many rounds is the backend interview loop?",
+      "reworded": "How many sessions does a server-side engineering candidate go through?",
+      "situational": "I'm telling a backend candidate what to expect onsite. How many interviews should I mention?"
+    },
+    "heldout": {
+      "direct": "How long is the backend interview loop?",
+      "reworded": "How many stages do backend hires face, system design included?",
+      "situational": "Recruiting asks how many interviewer slots to book for a backend candidate."
+    }
+  },
+  "eng-laptop": {
+    "main": {
+      "direct": "What laptop do engineers get?",
+      "reworded": "Which chip is in the standard developer MacBook?",
+      "situational": "A new hire asks what machine she'll receive on day one."
+    },
+    "heldout": {
+      "direct": "Which chip comes in the engineering laptop?",
+      "reworded": "What processor powers the Macs we hand out to devs?",
+      "situational": "I'm checking whether our standard dev machine can run this heavy local model. What's in it?"
+    }
+  },
+  "nightly-etl": {
+    "main": {
+      "direct": "What time does the nightly ETL run now?",
+      "reworded": "When does the overnight data pipeline kick off?",
+      "situational": "I want to deploy a schema change while nothing's reading the warehouse. When does the nightly job start?"
+    },
+    "heldout": {
+      "direct": "When is the nightly ETL scheduled?",
+      "reworded": "At what hour does our overnight load job start since we moved it?",
+      "situational": "Yesterday's numbers look stale. When should the overnight batch have fired?"
+    }
+  },
+  "registrar": {
+    "main": {
+      "direct": "Who's our domain registrar?",
+      "reworded": "Which company holds our domain names?",
+      "situational": "A domain is about to expire. Where do I log in to renew it?"
+    },
+    "heldout": {
+      "direct": "Which registrar do we use for domains?",
+      "reworded": "Where do we buy and manage our web addresses?",
+      "situational": "I need to change nameservers for our new site. Which provider do I go to?"
+    }
+  },
+  "mobile-api-version": {
+    "main": {
+      "direct": "Which API version do mobile clients use?",
+      "reworded": "What version of the backend do the phone apps call?",
+      "situational": "I'm changing a response field. Which version should I check so the iOS app doesn't break?"
+    },
+    "heldout": {
+      "direct": "What API version do mobile apps hit?",
+      "reworded": "Which backend version are our iOS and Android clients on?",
+      "situational": "We're deprecating an old endpoint version. Which one does the phone app depend on?"
+    }
+  },
+  "support-sla": {
+    "main": {
+      "direct": "What's the enterprise P1 support SLA?",
+      "reworded": "How fast must we respond to critical tickets from enterprise customers?",
+      "situational": "An enterprise customer just filed a sev-1 at 10am. By when must we respond?"
+    },
+    "heldout": {
+      "direct": "What response time do enterprise P1s get?",
+      "reworded": "What's our committed reply window for top-priority enterprise issues?",
+      "situational": "Halvorsen opened an urgent outage ticket. How long do we have to get back to them?"
+    }
+  }
+}

@@ -1,0 +1,338 @@
+[
+ {
+  "id": "locker",
+  "domain": "personal",
+  "stored": "My gym locker combination is 4417.",
+  "value": "4417",
+  "lookalikes": [
+   {
+    "stored": "My bike lock combination is 9032.",
+    "value": "9032"
+   },
+   {
+    "stored": "My storage unit gate code is 6158.",
+    "value": "6158"
+   }
+  ]
+ },
+ {
+  "id": "dentist",
+  "domain": "personal",
+  "stored": "My dentist is Dr. Okafor at Mosaic Dental.",
+  "value": "Okafor",
+  "decoy": "I keep thinking about switching dentists but haven't looked yet."
+ },
+ {
+  "id": "allergy",
+  "domain": "personal",
+  "stored": "My daughter Maya is allergic to cashews.",
+  "value": "cashews",
+  "lookalikes": [
+   {
+    "stored": "My son Theo is allergic to penicillin.",
+    "value": "penicillin"
+   }
+  ]
+ },
+ {
+  "id": "wifi",
+  "domain": "personal",
+  "stored": "The guest WiFi password at the lake house is driftwood88.",
+  "value": "driftwood88",
+  "decoy": "My sister keeps saying I should change the lake house guest password."
+ },
+ {
+  "id": "parking",
+  "domain": "personal",
+  "stored": "At the office I park on level P3, spot 112.",
+  "value": "112"
+ },
+ {
+  "id": "landlord",
+  "domain": "personal",
+  "stored": "My landlord is Priya Raman and her number is 703-555-0148.",
+  "value": "0148"
+ },
+ {
+  "id": "anniversary",
+  "domain": "personal",
+  "stored": "Our wedding anniversary is June 14.",
+  "value": "June 14",
+  "lookalikes": [
+   {
+    "stored": "My mom's birthday is September 3.",
+    "value": "September 3"
+   }
+  ]
+ },
+ {
+  "id": "coffee",
+  "domain": "personal",
+  "stored": "My coffee order is an oat milk cortado, extra hot.",
+  "value": "cortado",
+  "update": {
+   "stored": "I switched my usual coffee to a flat white with whole milk.",
+   "value": "flat white",
+   "implicit": "My usual coffee order is a flat white with whole milk."
+  }
+ },
+ {
+  "id": "passport",
+  "domain": "personal",
+  "stored": "My passport expires on March 2, 2027.",
+  "value": "March 2, 2027"
+ },
+ {
+  "id": "insurance",
+  "domain": "personal",
+  "stored": "My car insurance policy number is GX-77310.",
+  "value": "GX-77310"
+ },
+ {
+  "id": "shoe",
+  "domain": "personal",
+  "stored": "I wear a size 10.5 in running shoes.",
+  "value": "10.5"
+ },
+ {
+  "id": "vet",
+  "domain": "personal",
+  "stored": "Our dog Biscuit sees the vet at Pender Animal Hospital.",
+  "value": "Pender"
+ },
+ {
+  "id": "flight",
+  "domain": "personal",
+  "stored": "My confirmation code for the Denver flight is QX7HNB.",
+  "value": "QX7HNB"
+ },
+ {
+  "id": "medication",
+  "domain": "personal",
+  "stored": "I take 10 mg of lisinopril every morning.",
+  "value": "lisinopril"
+ },
+ {
+  "id": "babysitter",
+  "domain": "personal",
+  "stored": "Our babysitter is Jordan and she charges $22 an hour.",
+  "value": "$22"
+ },
+ {
+  "id": "seat",
+  "domain": "personal",
+  "stored": "I prefer an aisle seat on planes.",
+  "value": "aisle"
+ },
+ {
+  "id": "garage",
+  "domain": "personal",
+  "stored": "The garage door code is 2580.",
+  "value": "2580",
+  "update": {
+   "stored": "We changed the garage door code to 7391.",
+   "value": "7391",
+   "implicit": "Garage door code: 7391."
+  }
+ },
+ {
+  "id": "manager",
+  "domain": "personal",
+  "stored": "My manager at work is Dana Whitfield.",
+  "value": "Whitfield",
+  "update": {
+   "stored": "My new manager after the reorg is Marcus Bell.",
+   "value": "Bell",
+   "implicit": "Marcus Bell is my manager after the reorg."
+  }
+ },
+ {
+  "id": "address",
+  "domain": "personal",
+  "stored": "My mailing address is 41 Larkspur Lane, Fairfax.",
+  "value": "Larkspur",
+  "update": {
+   "stored": "I moved; my mailing address is now 9 Orchard Court, Vienna.",
+   "value": "Orchard",
+   "implicit": "My mailing address is 9 Orchard Court, Vienna."
+  }
+ },
+ {
+  "id": "plan",
+  "domain": "personal",
+  "stored": "My phone plan renews on the 18th of each month.",
+  "value": "18th"
+ },
+ {
+  "domain": "work",
+  "id": "package-manager",
+  "stored": "This repo uses pnpm for installing dependencies.",
+  "value": "pnpm",
+  "lookalikes": [
+   {
+    "stored": "The docs site is built and served with Bun.",
+    "value": "Bun"
+   }
+  ],
+  "decoy": "We talked about switching package managers but decided to leave it alone."
+ },
+ {
+  "domain": "work",
+  "id": "db-port",
+  "stored": "Local Postgres runs on port 5433 because 5432 is taken by another project.",
+  "value": "5433",
+  "decoy": "Someone suggested a different local Postgres port, but nothing changed."
+ },
+ {
+  "domain": "work",
+  "id": "test-runner",
+  "stored": "Unit tests run with Jest.",
+  "value": "Jest",
+  "update": {
+   "stored": "Unit tests now run on Vitest after the migration.",
+   "value": "Vitest",
+   "implicit": "Unit tests run on Vitest."
+  }
+ },
+ {
+  "domain": "work",
+  "id": "deploy-day",
+  "stored": "Production deploys go out from the release branch every Thursday.",
+  "value": "Thursday",
+  "update": {
+   "stored": "Production deploys moved to every Tuesday starting this month.",
+   "value": "Tuesday",
+   "implicit": "Production deploys go out every Tuesday."
+  }
+ },
+ {
+  "domain": "work",
+  "id": "payments-owner",
+  "stored": "The payments service is owned by the Billing team, and Dana Okonkwo reviews changes to it.",
+  "value": "Okonkwo",
+  "lookalikes": [
+   {
+    "stored": "The search service is owned by the Discovery team, and Lee Varga reviews changes to it.",
+    "value": "Varga"
+   }
+  ]
+ },
+ {
+  "domain": "work",
+  "id": "no-main",
+  "stored": "Never push directly to main; always open a pull request from a branch.",
+  "value": "pull request"
+ },
+ {
+  "domain": "work",
+  "id": "no-redis",
+  "stored": "We decided not to add Redis caching because the database is fast enough.",
+  "value": "Redis"
+ },
+ {
+  "domain": "work",
+  "id": "staging",
+  "stored": "The staging site is staging.lumen-app.dev.",
+  "value": "lumen-app",
+  "lookalikes": [
+   {
+    "stored": "The production site is app.lumenhq.com.",
+    "value": "lumenhq"
+   }
+  ]
+ },
+ {
+  "domain": "work",
+  "id": "api-v1",
+  "stored": "API v1 is deprecated and shuts off on December 1.",
+  "value": "December 1"
+ },
+ {
+  "domain": "work",
+  "id": "on-call",
+  "stored": "Tomasz is on call this week for production alerts.",
+  "value": "Tomasz",
+  "update": {
+   "stored": "On-call switched to Aisha for the rest of the week.",
+   "value": "Aisha",
+   "implicit": "Aisha is on call for production alerts this week."
+  }
+ },
+ {
+  "domain": "work",
+  "id": "code-style",
+  "stored": "The user prefers TypeScript and wants named exports, never default exports.",
+  "value": "named exports"
+ },
+ {
+  "domain": "work",
+  "id": "node-version",
+  "stored": "The project pins Node 22 in its .nvmrc file.",
+  "value": "Node 22",
+  "lookalikes": [
+   {
+    "stored": "The mobile app needs Xcode 26 to build.",
+    "value": "Xcode 26"
+   }
+  ]
+ },
+ {
+  "domain": "work",
+  "id": "secrets",
+  "stored": "API keys live in 1Password in the vault called Eng Shared.",
+  "value": "Eng Shared"
+ },
+ {
+  "domain": "work",
+  "id": "standup",
+  "stored": "Standup is at 9:45 AM Eastern on weekdays.",
+  "value": "9:45",
+  "update": {
+   "stored": "Standup moved to 10:15 AM Eastern.",
+   "value": "10:15",
+   "implicit": "Standup is at 10:15 AM Eastern."
+  }
+ },
+ {
+  "domain": "work",
+  "id": "customer",
+  "stored": "Our biggest customer is Halvorsen Freight, and their contract renews in April.",
+  "value": "Halvorsen"
+ },
+ {
+  "domain": "work",
+  "id": "feature-flag",
+  "stored": "The new checkout is behind the feature flag checkout_v2.",
+  "value": "checkout_v2"
+ },
+ {
+  "domain": "work",
+  "id": "brand-color",
+  "stored": "The brand's primary color is #1F6FEB.",
+  "value": "#1F6FEB"
+ },
+ {
+  "domain": "work",
+  "id": "errors",
+  "stored": "Errors are reported to Sentry.",
+  "value": "Sentry",
+  "lookalikes": [
+   {
+    "stored": "Usage analytics are sent to PostHog.",
+    "value": "PostHog"
+   }
+  ]
+ },
+ {
+  "domain": "work",
+  "id": "budget",
+  "stored": "The cloud budget cap is $4,000 a month.",
+  "value": "4,000"
+ },
+ {
+  "domain": "work",
+  "id": "hiring",
+  "stored": "Engineering candidates do a take-home project, then a 45-minute pairing session.",
+  "value": "take-home"
+ }
+]

@@ -1,0 +1,56 @@
+{
+  "name": "samefact",
+  "version": "0.3.0",
+  "description": "Does your AI memory remember the same fact in new words?",
+  "scripts": {
+    "test": "node --import tsx --test test/*.test.ts",
+    "bench": "node bin/samefact.mjs",
+    "typecheck": "tsc --noEmit",
+    "noise": "tsx scripts/make-noise.ts",
+    "chart": "tsx scripts/chart.ts",
+    "banner": "tsx scripts/banner.ts"
+  },
+  "keywords": [
+    "mcp",
+    "memory",
+    "agents",
+    "benchmark",
+    "llm",
+    "rag",
+    "eval"
+  ],
+  "author": "Ricky Plummer",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.1",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "tsx": "^4.23.15",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2"
+  },
+  "bin": {
+    "samefact": "bin/samefact.mjs",
+    "samefact-memory": "bin/samefact-memory.mjs"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "adapters",
+    "bin",
+    "data",
+    "scripts",
+    "src"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImJustRicky/samefact.git"
+  }
+}

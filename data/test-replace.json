@@ -1,0 +1,162 @@
+[
+  {
+    "id": "barber",
+    "base": "I get my hair cut by Marco at Fade Street on 5th.",
+    "explicit": "Marco left Fade Street, so I've been going to a guy named Theo at Clipper House.",
+    "implicit": "Barber: Theo at Clipper House.",
+    "decoy": "My sister keeps telling me to try her stylist, but I'm not sure I want to risk it.",
+    "lookalike": "My husband's barber is Luis over at Sharp Corners."
+  },
+  {
+    "id": "book-club-venue",
+    "base": "Our book club meets at Juniper Café on Fenwick Road.",
+    "explicit": "Juniper closed down, so book club relocated to the Hollis Library community room.",
+    "implicit": "Book club meets in the Hollis Library community room.",
+    "decoy": "Someone floated finding a spot with better parking, but nobody has actually looked into it.",
+    "lookalike": "My knitting group gets together at the Bramble Yarn shop."
+  },
+  {
+    "id": "daughter-shoe-size",
+    "base": "My daughter Ella wears a kids' size 11 shoe.",
+    "explicit": "Ella's feet grew again, she's up to a size 12 as of this week.",
+    "implicit": "Ella's shoe size: 12.",
+    "decoy": "Ella's toes are pressing the front of her sneakers, so we might need to size up soon.",
+    "lookalike": "Her cousin Mia wears a kids' size 9."
+  },
+  {
+    "id": "piano-lesson",
+    "base": "Sam's piano lesson is Tuesdays at 4:30 with Mrs. Albright.",
+    "explicit": "Mrs. Albright had to shuffle her schedule, so Sam's piano is on Thursdays at 5:15 going forward.",
+    "implicit": "Sam has piano Thursdays at 5:15.",
+    "decoy": "Mrs. Albright mentioned she might rework her week in the spring; nothing's set yet.",
+    "lookalike": "Sam's swim practice is Tuesdays at 6."
+  },
+  {
+    "id": "electric-provider",
+    "base": "Our electricity comes from Northgate Power.",
+    "explicit": "We dropped Northgate and signed up with BrightPath Energy last month, the rates were way better.",
+    "implicit": "Electric provider: BrightPath Energy.",
+    "decoy": "A door-to-door salesman tried to get me to leave Northgate; I told him no thanks.",
+    "lookalike": "Our gas service is through Lakeshore Gas."
+  },
+  {
+    "id": "trash-day",
+    "base": "Trash pickup on our street is Wednesday morning.",
+    "explicit": "The city redid the routes, so our trash goes out Monday night for Tuesday pickup.",
+    "implicit": "Trash gets picked up Tuesdays.",
+    "decoy": "A neighbor heard the city might redraw collection routes next year, but who knows.",
+    "lookalike": "Recycling pickup is every other Friday."
+  },
+  {
+    "id": "bike-lock-combo",
+    "base": "The combo on my blue bike lock is 3-9-1-4.",
+    "explicit": "I reset the bike lock combo, it's 7-2-0-6.",
+    "implicit": "Bike lock: 7206.",
+    "decoy": "I really should reset that bike lock one of these days, half my coworkers have watched me open it.",
+    "lookalike": "The padlock on my storage cage opens with 5-5-8-2."
+  },
+  {
+    "id": "anniversary-dinner",
+    "base": "Our anniversary dinner is booked at Osteria Nove for Saturday at 7:30.",
+    "explicit": "Osteria Nove called and bumped us to 8:45 on Saturday.",
+    "implicit": "Anniversary dinner: Osteria Nove, Saturday 8:45 p.m.",
+    "decoy": "Part of me wants to cancel and just do takeout, but Dana would kill me.",
+    "lookalike": "My parents' anniversary dinner is at The Copper Pot on Sunday at 6."
+  },
+  {
+    "id": "apartment-parking-spot",
+    "base": "My assigned parking spot at the apartment is P2-38.",
+    "explicit": "Building management reassigned spots after the repaving; mine is P1-12 now.",
+    "implicit": "I park in P1-12.",
+    "decoy": "I asked management whether I could get a spot closer to the elevator, and they said they'd 'look into it.'",
+    "lookalike": "My roommate's spot is P2-40."
+  },
+  {
+    "id": "pharmacy",
+    "base": "I fill my prescriptions at the CVS on Harmon Ave.",
+    "explicit": "Transferred all my prescriptions over to the Walgreens on 3rd and Pine.",
+    "implicit": "Pharmacy: Walgreens on 3rd and Pine.",
+    "decoy": "The CVS line was 40 minutes again today. Tempted to go elsewhere, honestly.",
+    "lookalike": "Mom's prescriptions go through the Rite Aid in Clearwater."
+  },
+  {
+    "id": "prod-postgres-version",
+    "base": "Our production database runs Postgres 14.",
+    "explicit": "We finished the upgrade over the weekend; prod is on Postgres 16.",
+    "implicit": "Prod DB: PostgreSQL 16.4.",
+    "decoy": "There's a ticket to evaluate a Postgres upgrade sometime in Q3, but it isn't prioritized.",
+    "lookalike": "The analytics warehouse runs Postgres 12."
+  },
+  {
+    "id": "backend-logger",
+    "base": "The backend logs through Winston.",
+    "explicit": "We ripped out Winston and went with Pino for structured logging.",
+    "implicit": "Backend logging is handled by Pino.",
+    "decoy": "Someone suggested ditching Winston in the retro; the room was lukewarm and we left it alone.",
+    "lookalike": "The iOS app logs through CocoaLumberjack."
+  },
+  {
+    "id": "feature-flag-service",
+    "base": "Feature flags live in LaunchDarkly.",
+    "explicit": "Finance killed the LaunchDarkly contract, so all our flags got ported over to a self-hosted Unleash instance.",
+    "implicit": "Feature flags are managed in our self-hosted Unleash.",
+    "decoy": "If LaunchDarkly raises prices again at renewal, we'll probably have to look at alternatives.",
+    "lookalike": "Marketing runs its A/B experiments in Optimizely."
+  },
+  {
+    "id": "api-region",
+    "base": "The API is deployed in AWS us-east-1.",
+    "explicit": "After the outage we relocated the API to us-west-2.",
+    "implicit": "API region: us-west-2.",
+    "decoy": "Leadership asked whether we could go multi-region; we said maybe next year.",
+    "lookalike": "Our nightly backups replicate to eu-central-1."
+  },
+  {
+    "id": "holiday-code-freeze",
+    "base": "Code freeze for the holiday release is December 12.",
+    "explicit": "Heads up: code freeze got pulled in to December 5.",
+    "implicit": "Holiday code freeze: Dec 5.",
+    "decoy": "PMs are lobbying to push the freeze later; engineering hasn't agreed to anything.",
+    "lookalike": "Q1 planning docs are due January 9."
+  },
+  {
+    "id": "design-review-room",
+    "base": "Weekly design review is in the Everest conference room.",
+    "explicit": "Facilities gave Everest to the exec team, so design review got bounced to Kilimanjaro.",
+    "implicit": "Design review is held in Kilimanjaro.",
+    "decoy": "Everest's projector is busted again; I keep joking we should just hold design review outside.",
+    "lookalike": "Sprint retro is in the Denali room."
+  },
+  {
+    "id": "frontend-error-tracker",
+    "base": "Frontend errors get reported to Sentry.",
+    "explicit": "We consolidated vendors, so frontend errors flow into Datadog RUM rather than Sentry.",
+    "implicit": "Frontend error reporting goes to Datadog RUM.",
+    "decoy": "Our Sentry bill doubled and a few people are grumbling, but we're staying put.",
+    "lookalike": "Backend exceptions are reported to Rollbar."
+  },
+  {
+    "id": "python-base-image",
+    "base": "Our Python services build from python:3.11-slim.",
+    "explicit": "Bumped the base image across all services to python:3.12-slim.",
+    "implicit": "Base image: python:3.12-slim.",
+    "decoy": "Security flagged some CVEs in the slim image; we're waiting on upstream patches before touching anything.",
+    "lookalike": "The ML training jobs run on nvidia/cuda:12.2.0-runtime-ubuntu22.04."
+  },
+  {
+    "id": "sprint-length",
+    "base": "We run two-week sprints.",
+    "explicit": "After the reorg the team voted to go to one-week sprints.",
+    "implicit": "Sprints are one week long.",
+    "decoy": "Our manager asked if we'd ever consider a different sprint cadence; the answer was a pretty firm no.",
+    "lookalike": "The platform team runs three-week sprints."
+  },
+  {
+    "id": "pr-approvals",
+    "base": "Merging to main requires one approving review.",
+    "explicit": "Security made us bump it: every PR into main needs two approvals.",
+    "implicit": "Required approvals for main: 2.",
+    "decoy": "There was a long Slack thread about requiring more reviewers, which petered out without a decision.",
+    "lookalike": "The infra-config repo requires three approvals."
+  }
+]

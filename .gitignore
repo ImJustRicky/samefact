@@ -1,0 +1,10 @@
+.DS_Store
+.originals/
+.venv-chroma/
+.venv-mem0/
+.venv/
+node_modules/
+results-extra/
+results-mem0/
+results-ref/
+samefact-results/

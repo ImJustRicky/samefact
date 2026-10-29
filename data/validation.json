@@ -1,0 +1,162 @@
+[
+  {
+    "id": "home-wifi-password",
+    "base": "Our home wifi password is lantern42.",
+    "explicit": "I reset the router over the weekend, so the wifi password changed to copper-fern-9.",
+    "implicit": "Home wifi password: copper-fern-9.",
+    "decoy": "I keep meaning to change the wifi password one of these days, but I haven't gotten around to it.",
+    "lookalike": "The guest network at my parents' house uses the password bluebird77."
+  },
+  {
+    "id": "family-dentist",
+    "base": "My dentist is Dr. Alvarez at Brightsmile Dental on Elm Street.",
+    "explicit": "I switched dentists; I'm seeing Dr. Okafor at Riverside Dental going forward.",
+    "implicit": "Booked my six-month cleaning with Dr. Okafor at Riverside Dental, my dentist, for March 3.",
+    "decoy": "My sister keeps telling me to try her dentist, but honestly I'm happy where I am.",
+    "lookalike": "My daughter's orthodontist is Dr. Lindqvist over in Maple Heights."
+  },
+  {
+    "id": "sertraline-dose",
+    "base": "I take 50 mg of sertraline every morning.",
+    "explicit": "My psychiatrist upped my sertraline to 100 mg a day as of last Tuesday.",
+    "implicit": "Sertraline dose: 100 mg daily, with breakfast.",
+    "decoy": "We discussed raising the sertraline at my appointment but agreed to hold off and reassess in three months.",
+    "lookalike": "My husband takes 20 mg of atorvastatin at night."
+  },
+  {
+    "id": "lisbon-flight",
+    "base": "Our flight to Lisbon departs on June 14 at 7:40 am.",
+    "explicit": "TAP rebooked us, so the Lisbon flight leaves June 15 at 11:05 am rather than the 14th.",
+    "implicit": "Lisbon departure is June 15 at 11:05 am on TAP 238.",
+    "decoy": "There's a rumor TAP crews might strike that week, which could mess with our Lisbon flight.",
+    "lookalike": "Mom's flight to Porto departs June 20 at 9:15 am."
+  },
+  {
+    "id": "home-address",
+    "base": "We live at 418 Birchwood Lane, Apt 3B.",
+    "explicit": "We moved last month, and our address is 92 Harbor View Road.",
+    "implicit": "Ship it to 92 Harbor View Road, Portland ME 04101; that's where we live.",
+    "decoy": "We toured a townhouse across town and loved it, but the offer fell through, so we're staying put.",
+    "lookalike": "My in-laws live at 1150 Crestline Drive."
+  },
+  {
+    "id": "monthly-rent",
+    "base": "My rent is $1,850 a month, due on the 1st.",
+    "explicit": "The rent went up with the lease renewal; it's $1,975 a month beginning in January.",
+    "implicit": "Rent: $1,975/month, due the 1st.",
+    "decoy": "The landlord hinted rents might go up when the lease renews, but nothing official yet.",
+    "lookalike": "My storage unit costs $140 a month, billed on the 15th."
+  },
+  {
+    "id": "maya-school-pickup",
+    "base": "Maya's school pickup is at 3:15 on weekdays.",
+    "explicit": "The school shifted dismissal earlier, so Maya gets picked up at 2:50 from here on.",
+    "implicit": "Maya pickup is 2:50 pm at the side gate.",
+    "decoy": "The PTA proposed an earlier dismissal time, but the school board voted it down.",
+    "lookalike": "Leo's daycare pickup is at 5:30."
+  },
+  {
+    "id": "health-insurance-id",
+    "base": "My health insurance member ID is XKP-449120-07.",
+    "explicit": "Open enrollment put me on a different plan, and my member ID is now BLU-882316-02.",
+    "implicit": "The card in my wallet lists member ID BLU-882316-02 for health coverage.",
+    "decoy": "HR mentioned we might get a different insurance carrier next year; still waiting to hear back.",
+    "lookalike": "My dental insurance member ID is DNT-55102-4."
+  },
+  {
+    "id": "car-plate",
+    "base": "My car's license plate is 7KRT482.",
+    "explicit": "Got vanity plates on the Civic, so my plate reads GOBLUE5 these days.",
+    "implicit": "License plate on my Civic: GOBLUE5.",
+    "decoy": "I almost ordered vanity plates, but the DMV fee was ridiculous so I skipped it.",
+    "lookalike": "My wife's Subaru has plate 8DLM115."
+  },
+  {
+    "id": "dog-food-portion",
+    "base": "Biscuit eats 1.5 cups of the salmon kibble twice a day.",
+    "explicit": "The vet wants Biscuit cut back to 1 cup of kibble per meal, effective today.",
+    "implicit": "Biscuit gets 1 cup of the salmon kibble, morning and evening.",
+    "decoy": "I wonder if Biscuit is eating too much; I'll ask the vet about it at his checkup.",
+    "lookalike": "Our cat Juniper gets a quarter cup of wet food in the evening."
+  },
+  {
+    "id": "payments-api-default-branch",
+    "base": "The default branch for the payments-api repo is master.",
+    "explicit": "We renamed the default branch on payments-api from master to main.",
+    "implicit": "payments-api default branch: main.",
+    "decoy": "Someone filed a ticket to rename the payments-api default branch; it's sitting in the backlog unassigned.",
+    "lookalike": "The default branch for the billing-ui repo is develop."
+  },
+  {
+    "id": "search-oncall-owner",
+    "base": "Priya Raman owns the on-call rotation for the search service.",
+    "explicit": "Ownership of search on-call transferred from Priya to Marcus Chen this sprint.",
+    "implicit": "Search service on-call owner is Marcus Chen.",
+    "decoy": "Priya floated handing off search on-call after her leave, but nothing has been decided.",
+    "lookalike": "Dana Kowalski owns the on-call rotation for the notifications service."
+  },
+  {
+    "id": "team-standup-time",
+    "base": "Our team standup is at 9:30 every weekday in the Juniper room.",
+    "explicit": "Standup got pushed to 10:15 so the London folks can join.",
+    "implicit": "Daily standup, 10:15, Juniper room.",
+    "decoy": "A few people asked whether standup could be later; our manager said she'd think about it.",
+    "lookalike": "The design team's standup is at 11:00 on Tuesdays and Thursdays."
+  },
+  {
+    "id": "monorepo-ci",
+    "base": "We run CI for the monorepo on Jenkins.",
+    "explicit": "The monorepo's CI was migrated off Jenkins to GitHub Actions last week.",
+    "implicit": "Monorepo CI runs on GitHub Actions; the workflow files live in .github/workflows.",
+    "decoy": "We spent a week evaluating alternatives to Jenkins and concluded it wasn't worth the effort.",
+    "lookalike": "The iOS app builds on Bitrise."
+  },
+  {
+    "id": "staging-url",
+    "base": "Staging lives at https://staging.acme-internal.io.",
+    "explicit": "Heads up: after the DNS cleanup, staging was relocated to https://stg.acme.dev.",
+    "implicit": "Staging URL: https://stg.acme.dev",
+    "decoy": "The platform team wants to consolidate our domains at some point, which would eventually affect staging.",
+    "lookalike": "The QA sandbox is at https://qa.acme-internal.io."
+  },
+  {
+    "id": "frontend-node-version",
+    "base": "The frontend builds with Node 18.17.",
+    "explicit": "We bumped the frontend's Node version to 20.11 in .nvmrc.",
+    "implicit": "The frontend .nvmrc pins Node 20.11.",
+    "decoy": "Node 18 hits end-of-life soon, so we'll have to upgrade the frontend eventually.",
+    "lookalike": "The Lambda functions run on Node 16.20."
+  },
+  {
+    "id": "prod-release-day",
+    "base": "We ship releases to production every Thursday afternoon.",
+    "explicit": "Release day is Tuesday from now on, since Thursdays kept colliding with the board meeting.",
+    "implicit": "Prod releases go out Tuesdays after 2 pm.",
+    "decoy": "If the Thursday releases keep breaking things, I'd vote for doing them earlier in the week.",
+    "lookalike": "The data team ships its pipeline updates every Monday morning."
+  },
+  {
+    "id": "public-api-rate-limit",
+    "base": "The public API rate limit is 600 requests per minute per key.",
+    "explicit": "We raised the per-key rate limit on the public API to 1,200 rpm after the load test.",
+    "implicit": "RATE_LIMIT_PER_KEY=1200 (requests/min) for the public API.",
+    "decoy": "Two customers have asked for a higher rate limit; we told them it's under review.",
+    "lookalike": "The internal admin API allows 50 requests per minute per user."
+  },
+  {
+    "id": "incident-channel",
+    "base": "Incidents get reported in the #ops-alerts Slack channel.",
+    "explicit": "We retired #ops-alerts; incidents go to #incident-response now.",
+    "implicit": "Report incidents in #incident-response and page whoever is on call.",
+    "decoy": "There's talk of splitting #ops-alerts into per-team channels, but nobody has acted on it.",
+    "lookalike": "Security issues get reported in #sec-triage."
+  },
+  {
+    "id": "mobile-jira-key",
+    "base": "Bugs for the mobile app are filed under the Jira project key MOB.",
+    "explicit": "After the reorg, mobile bugs are tracked under APPX instead of MOB.",
+    "implicit": "File mobile app bugs in APPX.",
+    "decoy": "Leadership is debating whether to merge the Jira projects, so the MOB key might go away someday.",
+    "lookalike": "Bugs for the web dashboard are filed under the project key WEBD."
+  }
+]

@@ -1,0 +1,482 @@
+{
+ "locker": {
+  "main": {
+   "direct": "What's the combo for my gym locker?",
+   "reworded": "What numbers open my lock at the fitness center?",
+   "situational": "I'm standing in the changing room after my workout and blanked on how to get my stuff out. What do I dial?"
+  },
+  "heldout": {
+   "direct": "What's the combination for my gym locker?",
+   "reworded": "I told you the numbers for my padlock at the fitness center, right? What were they?",
+   "situational": "I'm standing in the changing room after my workout and can't get my stuff out. Help?"
+  }
+ },
+ "dentist": {
+  "main": {
+   "direct": "Who's my dentist again?",
+   "reworded": "What's the name of the doctor who cleans my teeth?",
+   "situational": "My tooth has been aching since yesterday and I want to book someone. Who do I normally see for this?"
+  },
+  "heldout": {
+   "direct": "Who is my dentist?",
+   "reworded": "Which tooth doctor did I say I go to?",
+   "situational": "A molar has been throbbing since last night and I need to book someone for a cleaning and checkup. Who do I call?"
+  }
+ },
+ "allergy": {
+  "main": {
+   "direct": "What is Maya allergic to?",
+   "reworded": "Which food does my daughter react badly to?",
+   "situational": "I'm packing snacks for my girl's class trip. Which nut do I need to keep out of her bag?"
+  },
+  "heldout": {
+   "direct": "Which food does Maya have an allergy to?",
+   "reworded": "Which food did I say my daughter can't eat because of a reaction?",
+   "situational": "I'm buying trail mix for Maya's school trip. Anything I should check the label for?"
+  }
+ },
+ "wifi": {
+  "main": {
+   "direct": "What's the guest WiFi password at the lake house?",
+   "reworded": "How do visitors get online at our place by the lake?",
+   "situational": "Friends just arrived at the cabin on the water and want to connect their phones. What do I tell them to type in?"
+  },
+  "heldout": {
+   "direct": "What password do guests use for the internet at the lake house?",
+   "reworded": "What do visitors type in to get online at our place by the lake?",
+   "situational": "My in-laws just arrived at the lake cabin and their phones won't connect to the internet. What do I tell them?"
+  }
+ },
+ "parking": {
+  "main": {
+   "direct": "Which parking spot is mine at the office?",
+   "reworded": "Where do I leave my car at work, exactly?",
+   "situational": "I'm driving into the work garage and forgot where I'm supposed to pull in. Which space number is it?"
+  },
+  "heldout": {
+   "direct": "What's my parking spot number at the office?",
+   "reworded": "Where in the work garage did I say I leave my car?",
+   "situational": "I just came down the elevator after a long day and have no idea where I left the car. Where is it?"
+  }
+ },
+ "landlord": {
+  "main": {
+   "direct": "What's my landlord's phone number?",
+   "reworded": "How do I reach the person I rent from by phone?",
+   "situational": "The kitchen sink just started leaking all over the floor. Who do I call about the apartment, and at what number?"
+  },
+  "heldout": {
+   "direct": "What number do I call to reach my landlord?",
+   "reworded": "How do I reach the person I rent my apartment from?",
+   "situational": "A pipe under my kitchen sink just burst and is flooding the floor of my rental. Who do I call?"
+  }
+ },
+ "anniversary": {
+  "main": {
+   "direct": "When is our wedding anniversary?",
+   "reworded": "What day did my spouse and I get married?",
+   "situational": "I want to book a nice dinner to celebrate the day we tied the knot. Which date should I reserve?"
+  },
+  "heldout": {
+   "direct": "What date do we celebrate our anniversary?",
+   "reworded": "Remind me, when did we tie the knot? I mentioned the date once.",
+   "situational": "I want to book a nice dinner for the day we celebrate getting hitched. Which date should I reserve?"
+  }
+ },
+ "coffee": {
+  "main": {
+   "direct": "What's my usual coffee order these days?",
+   "reworded": "What do I normally get at the cafe now?",
+   "situational": "My coworker is doing a cafe run and asked what to grab for me. What should I tell him?"
+  },
+  "heldout": {
+   "direct": "What's my usual coffee order?",
+   "reworded": "What drink did I say I normally get at the caf\u00e9 these days?",
+   "situational": "My coworker is doing a caf\u00e9 run and asked what to get me. What should I tell her?"
+  }
+ },
+ "passport": {
+  "main": {
+   "direct": "When does my passport expire?",
+   "reworded": "How long is my travel document good for?",
+   "situational": "I'm booking a trip abroad next year and some countries need six months of validity. Am I covered, and until when?"
+  },
+  "heldout": {
+   "direct": "What's the expiration date on my passport?",
+   "reworded": "Until what date is my travel document still valid?",
+   "situational": "I'm thinking about booking a trip to Japan next spring. Will my documents still be good?"
+  }
+ },
+ "insurance": {
+  "main": {
+   "direct": "What's my car insurance policy number?",
+   "reworded": "What's the ID on my auto coverage?",
+   "situational": "I just got rear-ended and the other driver wants my details for the claim. What number do I give them?"
+  },
+  "heldout": {
+   "direct": "What is the policy number for my auto insurance?",
+   "reworded": "I gave you some code for my car coverage a while back. What was it?",
+   "situational": "Someone just rear-ended me and the other driver wants my info for the claim. What number do I give?"
+  }
+ },
+ "shoe": {
+  "main": {
+   "direct": "What size running shoes do I wear?",
+   "reworded": "What fits my feet for jogging sneakers?",
+   "situational": "There's a sale on trainers online and I'm about to order a pair for my runs. Which size do I pick?"
+  },
+  "heldout": {
+   "direct": "What's my shoe size for running?",
+   "reworded": "What size did I say fits me for jogging sneakers?",
+   "situational": "There's a sale on trainers online and I'm about to add a pair to my cart. Which size do I pick?"
+  }
+ },
+ "vet": {
+  "main": {
+   "direct": "Which vet does Biscuit go to?",
+   "reworded": "Where do we take the dog when he needs a checkup?",
+   "situational": "Our pup has been limping all morning and I need to call someone. Which clinic do we use?"
+  },
+  "heldout": {
+   "direct": "Where does Biscuit go to the vet?",
+   "reworded": "Which animal clinic did I say our dog uses?",
+   "situational": "Our dog has been limping all morning and I need to get him seen. Where do we usually take him?"
+  }
+ },
+ "flight": {
+  "main": {
+   "direct": "What's the confirmation code for my Denver flight?",
+   "reworded": "What's my booking reference for the Colorado trip?",
+   "situational": "I'm at the airport kiosk heading to the Mile High City and it wants my reservation code. What is it?"
+  },
+  "heldout": {
+   "direct": "What's the booking reference for the flight to Denver?",
+   "reworded": "What's the booking reference for my trip to Colorado?",
+   "situational": "I'm at the airline kiosk trying to print my boarding pass for Denver and it wants a code."
+  }
+ },
+ "medication": {
+  "main": {
+   "direct": "What medication do I take each morning?",
+   "reworded": "What's the name of the pill I'm on daily?",
+   "situational": "The pharmacist is asking what I'm currently prescribed before filling something new. What drug should I mention?"
+  },
+  "heldout": {
+   "direct": "What medication do I take every morning?",
+   "reworded": "What's the name of the pill I said I swallow daily?",
+   "situational": "The new doctor's intake form asks me to list my current prescriptions. What should I write?"
+  }
+ },
+ "babysitter": {
+  "main": {
+   "direct": "How much does Jordan charge per hour?",
+   "reworded": "What's the sitter's hourly rate?",
+   "situational": "We're going out for about four hours tonight and I want cash ready for whoever watches the kids. What does she charge?"
+  },
+  "heldout": {
+   "direct": "What's our babysitter's hourly rate?",
+   "reworded": "What's the hourly price for our sitter?",
+   "situational": "We're going out for five hours tonight and I need to have cash ready for the kids' sitter. How much per hour?"
+  }
+ },
+ "seat": {
+  "main": {
+   "direct": "What kind of plane seat do I like?",
+   "reworded": "Window or something else, which spot do I usually want when flying?",
+   "situational": "The airline app is asking me to pick where to sit for tomorrow's trip. What's my preference?"
+  },
+  "heldout": {
+   "direct": "What kind of seat do I prefer on flights?",
+   "reworded": "Window or the other one \u2014 which spot do I like on a plane?",
+   "situational": "I'm picking my spot for the flight to Chicago on the seat map. Which should I choose?"
+  }
+ },
+ "garage": {
+  "main": {
+   "direct": "What's the garage door code now?",
+   "reworded": "What do I punch in to open the garage?",
+   "situational": "I'm locked out of the house and the only way in is the keypad by the car bay. What number do I enter?"
+  },
+  "heldout": {
+   "direct": "What's the garage door code?",
+   "reworded": "What digits open the garage keypad now?",
+   "situational": "I'm locked out of the house, but I'm standing at the garage keypad. What do I punch in?"
+  }
+ },
+ "manager": {
+  "main": {
+   "direct": "Who is my manager now?",
+   "reworded": "Who do I report to at work these days?",
+   "situational": "I need to get my time off approved after the team shuffle. Whose sign-off do I need?"
+  },
+  "heldout": {
+   "direct": "Who is my manager at work?",
+   "reworded": "Who do I report to these days?",
+   "situational": "I need to get my vacation request approved by my boss. Who should I send it to?"
+  }
+ },
+ "address": {
+  "main": {
+   "direct": "What's my current mailing address?",
+   "reworded": "Where should mail be sent to me now?",
+   "situational": "I'm filling out a form for a new credit card and it wants where I get letters. What do I put?"
+  },
+  "heldout": {
+   "direct": "What's my mailing address?",
+   "reworded": "Where should letters be sent to me now?",
+   "situational": "I'm filling out an online order form and it wants a shipping location. Where should it go?"
+  }
+ },
+ "plan": {
+  "main": {
+   "direct": "When does my phone plan renew?",
+   "reworded": "What day of the month does my cell bill reset?",
+   "situational": "I'm almost out of mobile data and wondering how long until it refills. Which day does the cycle restart?"
+  },
+  "heldout": {
+   "direct": "What day of the month does my phone plan renew?",
+   "reworded": "What day of the month does my mobile bill reset?",
+   "situational": "I'm almost out of data and wondering how long until my allowance resets. When does it roll over?"
+  }
+ },
+ "package-manager": {
+  "main": {
+   "direct": "What package manager does this repo use?",
+   "reworded": "Which tool should I use to pull in the project's libraries?",
+   "situational": "I just cloned the project and need to get everything installed before running it. Which command do I start with?"
+  },
+  "heldout": {
+   "direct": "Which package manager does this repo use?",
+   "reworded": "What tool do we use here to install node modules?",
+   "situational": "I just cloned the project and want to install dependencies. What command should I run?"
+  }
+ },
+ "db-port": {
+  "main": {
+   "direct": "What port is local Postgres on?",
+   "reworded": "Where's the dev database listening on my machine?",
+   "situational": "My app can't connect to the database locally and I think the connection string is wrong. What port should it point at?"
+  },
+  "heldout": {
+   "direct": "What port does local Postgres run on?",
+   "reworded": "Which port is the dev database listening on?",
+   "situational": "My app can't connect to the database locally because the default port belongs to another project. What should DATABASE_URL use?"
+  }
+ },
+ "test-runner": {
+  "main": {
+   "direct": "What do we use to run unit tests?",
+   "reworded": "Which testing framework is the project on now?",
+   "situational": "I'm writing a spec file for a new util and need to know what to import describe and expect from. Which library?"
+  },
+  "heldout": {
+   "direct": "Which test framework do we currently use for unit tests?",
+   "reworded": "Which testing framework does the project use now?",
+   "situational": "I'm writing my first spec file in this repo. Which library should I import describe and expect from?"
+  }
+ },
+ "deploy-day": {
+  "main": {
+   "direct": "What day do production deploys happen?",
+   "reworded": "When does code go out to prod each week?",
+   "situational": "I want my fix live for customers as soon as possible. Which weekday should I have it merged before?"
+  },
+  "heldout": {
+   "direct": "What day do production deploys go out?",
+   "reworded": "Which day of the week do we ship releases to prod?",
+   "situational": "My feature just merged and I want to know when customers will actually see it. When's the next ship?"
+  }
+ },
+ "payments-owner": {
+  "main": {
+   "direct": "Who reviews changes to the payments service?",
+   "reworded": "Who signs off on edits to the billing code?",
+   "situational": "I just opened a PR touching how we charge cards. Who should I tag for review?"
+  },
+  "heldout": {
+   "direct": "Who is the reviewer for payments service changes?",
+   "reworded": "Which person signs off on edits to the billing code?",
+   "situational": "I just opened a PR touching the payments service. Who should I tag for review?"
+  }
+ },
+ "no-main": {
+  "main": {
+   "direct": "Can I push straight to main?",
+   "reworded": "What's the rule for getting changes onto the primary branch?",
+   "situational": "My one-line typo fix is ready and committed locally. How am I supposed to get it merged?"
+  },
+  "heldout": {
+   "direct": "Am I allowed to commit directly to the main branch?",
+   "reworded": "What's our rule about committing directly to the primary branch?",
+   "situational": "My one-line typo fix is ready. Should I just git push it to the default branch?"
+  }
+ },
+ "no-redis": {
+  "main": {
+   "direct": "Did we decide to add a caching layer?",
+   "reworded": "What did we conclude about putting a cache in front of the DB?",
+   "situational": "A new hire suggested we cache queries in an in-memory store to speed things up. Which store did we already reject?"
+  },
+  "heldout": {
+   "direct": "What did we decide about adding a cache?",
+   "reworded": "What did the team conclude about putting an in-memory cache in front of the database?",
+   "situational": "Some queries feel slow and I'm tempted to bolt on a key-value cache. Has this come up before?"
+  }
+ },
+ "staging": {
+  "main": {
+   "direct": "What's the staging site URL?",
+   "reworded": "Where's the pre-prod environment hosted?",
+   "situational": "QA wants to click through the new feature before it goes live. What link do I send them?"
+  },
+  "heldout": {
+   "direct": "What's the URL for the staging site?",
+   "reworded": "Where's our pre-production environment hosted?",
+   "situational": "QA wants to try my change before it goes live. Where should I send them?"
+  }
+ },
+ "api-v1": {
+  "main": {
+   "direct": "When does API v1 get shut off?",
+   "reworded": "What's the cutoff date for the old version of our API?",
+   "situational": "A client still calls our first-gen endpoints and wants to know how long they have to migrate. What's the deadline?"
+  },
+  "heldout": {
+   "direct": "When does API v1 shut off?",
+   "reworded": "When is the old version of our API going away?",
+   "situational": "A customer still calls our legacy endpoints and asked how long they have to migrate."
+  }
+ },
+ "on-call": {
+  "main": {
+   "direct": "Who's on call right now?",
+   "reworded": "Who's handling prod pages for the rest of this week?",
+   "situational": "Alerts are firing and the site seems down. Who should I ping first?"
+  },
+  "heldout": {
+   "direct": "Who's on call this week?",
+   "reworded": "Who's handling production pages right now?",
+   "situational": "Prod alerts are firing and I need to wake someone up. Who do I ping?"
+  }
+ },
+ "code-style": {
+  "main": {
+   "direct": "What's the export style rule for this codebase?",
+   "reworded": "How should modules expose what they define?",
+   "situational": "I'm creating a new component file and about to write the export line at the bottom. Which form should I use?"
+  },
+  "heldout": {
+   "direct": "What export style does the user prefer?",
+   "reworded": "How does the user want modules to expose their components?",
+   "situational": "I'm about to write a new React component file. How should I export it at the bottom?"
+  }
+ },
+ "node-version": {
+  "main": {
+   "direct": "What Node version does the project pin?",
+   "reworded": "Which JavaScript runtime version should I have installed for this repo?",
+   "situational": "Install is failing with engine warnings and I suspect my runtime is wrong. What should I switch to with nvm?"
+  },
+  "heldout": {
+   "direct": "Which Node version does the project pin?",
+   "reworded": "What runtime version is locked in for this repo?",
+   "situational": "I'm setting up nvm on a new laptop for this project. Which version should I install?"
+  }
+ },
+ "secrets": {
+  "main": {
+   "direct": "Where are API keys stored?",
+   "reworded": "Which password manager vault holds our service credentials?",
+   "situational": "I need the token for a third-party service to set up my local env. Where do I go to find it?"
+  },
+  "heldout": {
+   "direct": "Where do we keep our API keys?",
+   "reworded": "Which password manager vault holds our credentials?",
+   "situational": "I need the Stripe key to configure my local env. Where do I look?"
+  }
+ },
+ "standup": {
+  "main": {
+   "direct": "What time is standup?",
+   "reworded": "When's the daily team check-in now?",
+   "situational": "I have a dentist appointment tomorrow morning and don't want to miss the morning sync. What time does it start?"
+  },
+  "heldout": {
+   "direct": "When does our daily standup start now?",
+   "reworded": "When does the daily team sync start these days?",
+   "situational": "I'm trying to schedule a dentist appointment on a weekday morning without missing the team meeting. When is it?"
+  }
+ },
+ "customer": {
+  "main": {
+   "direct": "Who's our biggest customer?",
+   "reworded": "Which client brings in the most for us?",
+   "situational": "Leadership wants to know which account matters most before April's renewals. Which company should I flag?"
+  },
+  "heldout": {
+   "direct": "Who is our biggest customer?",
+   "reworded": "Who was that account I said was our largest, the one paying us the most?",
+   "situational": "Sales wants to know which account we absolutely can't upset before April's renewal. Who is it?"
+  }
+ },
+ "feature-flag": {
+  "main": {
+   "direct": "What's the feature flag for the new checkout?",
+   "reworded": "Which toggle controls the redesigned purchase flow?",
+   "situational": "I want to test the updated payment page on my account. What do I need to switch on?"
+  },
+  "heldout": {
+   "direct": "What feature flag is the new checkout behind?",
+   "reworded": "What was the switch name for the new checkout thing I mentioned?",
+   "situational": "I want to see the redesigned payment page in my dev environment. What do I need to enable?"
+  }
+ },
+ "brand-color": {
+  "main": {
+   "direct": "What's our primary brand color?",
+   "reworded": "What hex code is the main company color?",
+   "situational": "I'm styling a new button and want it to match the rest of the app. Which color value should I use?"
+  },
+  "heldout": {
+   "direct": "What's the brand's primary color?",
+   "reworded": "What hex code is our main brand color?",
+   "situational": "I'm styling the main call-to-action button and want it on-brand. What color should I use?"
+  }
+ },
+ "errors": {
+  "main": {
+   "direct": "Where are errors reported?",
+   "reworded": "What service collects our crash and exception logs?",
+   "situational": "A user says the app blew up on them yesterday. Where do I go to find the stack trace?"
+  },
+  "heldout": {
+   "direct": "Which tool do we send errors to?",
+   "reworded": "Which service tracks our exceptions?",
+   "situational": "A user says the app crashed for them an hour ago. Where can I find the stack trace?"
+  }
+ },
+ "budget": {
+  "main": {
+   "direct": "What's the cloud budget cap?",
+   "reworded": "How much are we allowed to spend on hosting monthly?",
+   "situational": "I want to spin up a few big GPU instances for an experiment. What's our monthly spending limit?"
+  },
+  "heldout": {
+   "direct": "What's the monthly cloud budget cap?",
+   "reworded": "How much can we spend on hosting each month?",
+   "situational": "I want to spin up a few large GPU instances for testing. How much headroom do we have each month?"
+  }
+ },
+ "hiring": {
+  "main": {
+   "direct": "What's the interview process for engineering candidates?",
+   "reworded": "How do we evaluate developers we're thinking of hiring?",
+   "situational": "A recruiter asks what a dev applicant should expect after the intro call. What steps do I describe?"
+  },
+  "heldout": {
+   "direct": "How do we interview engineering candidates?",
+   "reworded": "What steps do engineering applicants go through?",
+   "situational": "A candidate just emailed asking what to expect after the recruiter screen. What do I tell them?"
+  }
+ }
+}
