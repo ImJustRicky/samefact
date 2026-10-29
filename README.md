@@ -15,13 +15,25 @@ samefact tests exactly those two things, over MCP, against any memory server. It
 
 Right answer in the top 3 of 1,171 stored notes. Each question goes through the search query an assistant would write for it, since that's how agents use memory. A random pick would get 0.3%.
 
-| Memory                                                                                           | Asked plainly | Reworded | Situation described | **Fact changed (said so)** | Old answer first | Fact changed (restated) | Survives a false change |
-| ------------------------------------------------------------------------------------------------ | ------------- | -------- | ------------------- | -------------------------- | ---------------- | ----------------------- | ----------------------- |
-| [Official MCP memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) 1.0¹ | 90%           | 73%      | 70%                 | **20%**                    | 48%              | 32%                     | 37%                     |
-| [basic-memory](https://github.com/basicmachines-co/basic-memory) 0.24.1                          | 97%           | 90%      | 67%                 | **20%**                    | 64%              | 52%                     | 72%                     |
-| [Chroma](https://github.com/chroma-core/chroma-mcp) 0.2.6                                        | 97%           | 100%     | 83%                 | **12%**                    | 79%              | 46%                     | 85%                     |
-| [MemPalace](https://github.com/MemPalace/mempalace) 3.11                                         | 97%           | 90%      | 77%                 | **19%**                    | 71%              | 57%                     | 75%                     |
-| [Mem0](https://github.com/mem0ai/mem0) 2.2.1²                                                    | 90%           | 87%      | 70%                 | **23%**                    | 53%              | 38%                     | 63%                     |
+| Memory               | Asked plainly | Reworded | Situation described | **Fact changed (said so)** | Old answer first |
+| -------------------- | ------------- | -------- | ------------------- | -------------------------- | ---------------- |
+| Official MCP memory¹ | 90%           | 73%      | 70%                 | **20%**                    | 48%              |
+| basic-memory         | 97%           | 90%      | 67%                 | **20%**                    | 64%              |
+| Chroma               | 97%           | 100%     | 83%                 | **12%**                    | 79%              |
+| MemPalace            | 97%           | 90%      | 77%                 | **19%**                    | 71%              |
+| Mem0²                | 90%           | 87%      | 70%                 | **23%**                    | 53%              |
+
+The same changes restated with no word saying so, and false changes that should leave the fact alone:
+
+| Memory              | Fact changed (restated) | Survives a false change |
+| ------------------- | ----------------------- | ----------------------- |
+| Official MCP memory | 32%                     | 37%                     |
+| basic-memory        | 52%                     | 72%                     |
+| Chroma              | 46%                     | 85%                     |
+| MemPalace           | 57%                     | 75%                     |
+| Mem0                | 38%                     | 63%                     |
+
+Tested: [Official MCP memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) 1.0, [basic-memory](https://github.com/basicmachines-co/basic-memory) 0.24.1, [Chroma MCP](https://github.com/chroma-core/chroma-mcp) 0.2.6, [MemPalace](https://github.com/MemPalace/mempalace) 3.11, [Mem0](https://github.com/mem0ai/mem0) 2.2.1.
 
 ¹ Its search is a substring match, so samefact sends it one search per keyword of the query and ranks notes by keywords matched. Each note is stored as its own entity; relations aren't used.
 
@@ -105,15 +117,15 @@ Change tracking triples the right answers after a stated change, but costs a few
 
 ## How it compares
 
-|                             | samefact                                | LongMemEval / LoCoMo      | MemoryAgentBench    | Vendor benchmarks |
-| --------------------------- | --------------------------------------- | ------------------------- | ------------------- | ----------------- |
-| Runs against any MCP server | yes, no code                            | no                        | no                  | no                |
-| Needs an LLM or API keys    | no (only LLM-based memories do)         | yes (judge)               | yes                 | yes               |
-| Time to run                 | minutes; seconds with `--quick`         | hours                     | hours               | hours             |
-| Changes scored strictly     | said, restated, false; old answer first | knowledge-update category | conflict resolution | varies            |
-| CI mode                     | yes                                     | no                        | no                  | no                |
+|                             | samefact                                | LongMemEval / LoCoMo                | MemoryAgentBench     | Vendor benchmarks         |
+| --------------------------- | --------------------------------------- | ----------------------------------- | -------------------- | ------------------------- |
+| Runs against any MCP server | yes, no code                            | needs an integration per system     | needs an integration | usually their own product |
+| Needs an LLM or API keys    | no (only LLM-based memories do)         | usually (an LLM answers and judges) | usually              | usually                   |
+| Time to run                 | minutes; seconds with `--quick`         | typically hours                     | typically hours      | varies                    |
+| Changes scored              | said, restated, false; old answer first | a knowledge-update category         | conflict resolution  | varies                    |
+| CI mode                     | yes                                     | not built in                        | not built in         | varies                    |
 
-It's smaller and narrower than those: it checks retrieval, not the final answer a model gives.
+As of October 2026, from each project's published setup. It's smaller and narrower than those: it checks retrieval, not the final answer a model gives.
 
 ## Limits
 

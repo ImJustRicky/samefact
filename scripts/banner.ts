@@ -22,7 +22,7 @@ const data = JSON.parse(readFileSync(join("results", file), "utf8")) as {
   reports: Report[];
 };
 const SHOW: Record<string, string> = {
-  "mcp-server-memory": "mcp-server-memory",
+  "mcp-server-memory": "official mcp memory",
   "basic-memory": "basic-memory",
   "chroma-mcp": "chroma",
   mempalace: "mempalace",
@@ -42,13 +42,13 @@ const pad = (s: string, w: number) => s + " ".repeat(Math.max(0, w - s.length));
 
 const lines = [
   `<span class="p">$</span> npx github:ImJustRicky/samefact`,
-  `<span class="dim">Right answer in the top 3 of ${data.stored.toLocaleString()} notes.</span>`,
+  `<span class="dim">Top 3 of ${data.stored.toLocaleString()} notes, assistant-written queries.</span>`,
   "",
-  `<span class="h">${esc(pad("memory", 20))}${pad("reworded", 11)}${pad("fact changed", 15)}stale first</span>`,
+  `<span class="h">${esc(pad("memory", 22))}${pad("reworded", 11)}${pad("fact changed", 15)}old answer first</span>`,
   ...rows.map((r) => {
     const u = r.summary.update;
     const stale = u.stale / Math.max(1, u.n);
-    return `${esc(pad(SHOW[r.adapter]!, 20))}${pad(pct(r.summary.reworded.top3, r.summary.reworded.n), 11)}${pad(pct(u.top3, u.n), 15)}<span class="${stale >= 0.25 ? "bad" : "ok"}">${pct(u.stale, u.n)}</span>`;
+    return `${esc(pad(SHOW[r.adapter]!, 22))}${pad(pct(r.summary.reworded.top3, r.summary.reworded.n), 11)}${pad(pct(u.top3, u.n), 15)}<span class="${stale >= 0.25 ? "bad" : "ok"}">${pct(u.stale, u.n)}</span>`;
   }),
 ];
 
