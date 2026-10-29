@@ -58,6 +58,7 @@ const html = `<!doctype html><html><head><meta charset="utf-8">
   html,body{margin:0;width:1600px;height:640px;background:#0d1117;font-family:Inter,system-ui,sans-serif}
   .wrap{display:flex;align-items:center;height:100%;padding:0 88px;gap:72px;box-sizing:border-box}
   .left{flex:0 0 470px;color:#e6edf3}
+  .brand{display:flex;align-items:center;gap:22px}.logo{height:78px;mix-blend-mode:lighten}
   .name{font-size:76px;font-weight:700;letter-spacing:-2px;margin:0}
   .tag{font-size:26px;line-height:1.35;color:#8b949e;margin:18px 0 0;font-weight:600}
   .term{flex:1;background:#161b22;border:1px solid #30363d;border-radius:12px;overflow:hidden}
@@ -67,7 +68,7 @@ const html = `<!doctype html><html><head><meta charset="utf-8">
   .p{color:#3fb950}.dim{color:#6e7681}.h{color:#8b949e;font-weight:600}
   .bad{color:#f85149;font-weight:600}.ok{color:#3fb950;font-weight:600}
 </style></head><body><div class="wrap">
-  <div class="left"><p class="name">samefact</p>
+  <div class="left"><div class="brand"><img class="logo" src="logo.png" alt=""><p class="name">samefact</p></div>
   <p class="tag">Does your agent's memory find the fact in new words, and the new answer after it changes?</p></div>
   <div class="term"><div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
   <pre>${lines.join("\n")}</pre></div>
